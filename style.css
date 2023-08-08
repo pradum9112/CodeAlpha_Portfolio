@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+
+    align-content: center;
+    background-color: white;
+    /* width: 83vw; */
+
+}
+
+.container {
+    position: absolute;
+}
+
+.InfoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 213, 225);
+    width: 70vw;
+    height: 58vh;
+    margin: 144px auto;
+    /* justify-content: space-around; */
+    display: flex;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 10px;
+}
+
+
+
+.hello {
+    font-size: 38px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+
+}
+
+.about {
+    font-size: 40px;
+
+}
+
+.moreAbout {
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+}
+
+.buttons {
+    margin-top: 32px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: #6161a9;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+}
+
+.devpic {
+    display: flex;
+    align-items: center;
+}
+
+
+.devpic img {
+
+    height: 48vh;
+    max-width: 95%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+/* Sidebar section */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    min-width: 100vw;
+    height: 5vh;
+    /* Set the minimum width of the sidebar */
+    font-family: 'PT Serif', serif;
+
+}
+
+/* Sidebar navigation styles */
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #444;
+}
+
+
+
+
+/* Add this to your existing style.css or create a new CSS file and link it in the <head> */
+
+.buttons button:last-child {
+    background-color: #195727;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ 
+
+    .InfoContainer {
+        height: auto;
+        width: auto;
+        margin-right: 22px;
+        margin-left: 22px;
+    }
+
+    .buttons {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+    .devpic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+    }
+
+    .devpic img {
+        height: 75%;
+        max-width: 70%;
+        border-radius: 50%;
+    }
+
+    .buttons button {
+        margin-top: 5px;
+        padding: auto;
+        font-weight: bold;
+    }
+
+
+
+}
